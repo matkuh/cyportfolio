@@ -1,0 +1,49 @@
+h1 {
+    /* color: blue; */
+}
+
+#image {
+    height: 30%;
+    width: 30%;
+}
+
+.nav-wrapper {
+    background-color: rgb(70, 70, 70) !important;
+}
+
+.section {
+    background-color: rgb(230, 230, 230) !important;
+}
+
+.card-panel {
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+
+.thumbnail {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.contacticon {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+#email {
+    text-align: center;
+}
